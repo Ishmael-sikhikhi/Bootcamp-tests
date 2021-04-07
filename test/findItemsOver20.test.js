@@ -13,6 +13,6 @@ describe('findItemsOver20' , function(){
             {name : 'pears', qty : 17},
             {name : 'bananas', qty : 13},
             {name : 'apples', qty : 3},
-        ]), '')
+        ]), '')//nothing
     });
 });
