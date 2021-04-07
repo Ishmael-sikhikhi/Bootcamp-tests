@@ -5,7 +5,7 @@ describe('regCheck' , function(){
     it('should return true if Registration number is for GP, L, EC, MP ' , function(){
         assert.equal(regCheck('DV 23 NB GP', 'GP'),true);
     });    
-    it('should return true if Registration number is for GP, L, EC, MP ' , function(){
+    it('should return false if Registration number is not for GP, L, EC, MP ' , function(){
         assert.equal(regCheck('DV 23 NB GP', null),false);
     });
 });

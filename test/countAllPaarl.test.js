@@ -5,4 +5,7 @@ describe('countAllPaarl' , function(){
     it('should return the total registration numbers from Paarl' , function(){
         assert.equal(countAllPaarl('CJ 345 123, CK 345, CJ 123'), 2);
     });
+    it('should return zero if there no registration numbers from Paarl' , function(){
+        assert.equal(countAllPaarl('CA 345 123, CK 345'), 0);
+    });
 });
